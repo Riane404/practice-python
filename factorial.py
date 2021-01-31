@@ -1,9 +1,8 @@
-i=1
-j=1
-s=1
-for i in range(1,11,1):
-    j=1
-    for s in range(i,0,-1):
-        j=j*s
-    print(i,"factorial is",j)
+def factorial(n):
+    s=1
+    for k in range(1,n+1):
+        s=s*k  
+    print(s)  
 
+n=int(input())
+factorial(n)
