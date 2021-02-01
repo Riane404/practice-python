@@ -1,0 +1,3 @@
+
+import lottery
+print("h")
