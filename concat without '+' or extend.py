@@ -1,5 +1,6 @@
 i=int(input("Enter the number of values in the list: "))
 l1=list()
+l3=list()
 for j in range(0,i):
     lv1=input("Enter the value to be added: ")
     l1.append(lv1)
@@ -13,6 +14,7 @@ for j in range(0,i):
 print()
 
 for i in l1:
-    print(i,end=" ")
+    l3.append(i)    
 for i in l2:
-    print(i,end=" ")
+    l3.append(i)
+print(l3)

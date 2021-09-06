@@ -1,6 +1,8 @@
 i=input("Enter the values : ")
 l=i.replace(",",":")
 l=l.split(":")
+l=list(l)
+print(l)
 s=0
 sv=0
 mv=0
@@ -22,5 +24,5 @@ h=tt/60
 print("The total time required is:",h,"hours")
 
    
-
+6
 

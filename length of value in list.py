@@ -1,6 +1,5 @@
 i=int(input("Enter the number of values to be entered: "))
 l=list()
-v1=0
 c=0
 q=0
 q1=0
@@ -16,3 +15,6 @@ for i in l:
         q1=len(i)
     
 print("The longest value is",l[c])
+
+
+

@@ -1,11 +1,10 @@
-i=int(input("Enter the number of columns: "))
-j=int(input("Enter the number of rows: "))
-for col in range(0,i):
-    s=col+1
-    cs=s
-    c=cs
-    for row in range(0,j):
-        print(cs,end=" ")
-        cs+=c
-         
+i=int(input("Enter the number of rows: "))
+j=int(input("Enter the number of columns: "))
+for row in range(1,i+1):
+    s=row
+    c=s
+    for col in range(0,j):
+        print(s,end="  ")
+        s+=c  
+    print()
     print()

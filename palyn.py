@@ -14,4 +14,3 @@ if k==c:
 else:
     print("It is not a palyndrom")
 
-    print(k)

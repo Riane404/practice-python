@@ -1,5 +1,6 @@
 i=input("Enter the values: ")
-l=i.split(",")
+l=i.split(":")
+l.remove(",")
 t=tuple(l)
 print()
 print("List:",end="")
@@ -9,3 +10,4 @@ print()
 print("Tuple:",end="")
 for s in t:
     print(s,end=" ")
+
