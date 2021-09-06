@@ -1,4 +1,4 @@
-i=5
+i=int(input("enter the length of * needed:"))
 k=0
 s=0
 t=0
