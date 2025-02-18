@@ -34,7 +34,7 @@ async def send_reminder(user, reminder, time, user_id, command_name):
         active_user_reminders[:] = [r for r in active_user_reminders if r['reminder'] != reminder]
 #<==========================================================================================>functions<==========================================================================================>
 load_dotenv()
-TOKEN = 'OTc4OTM2Nzg5NjU2MDM1MzY4.G1218I.21YB6y2FC3pjyupPDap_HmHJO7QSlWbPMigc3s'  # Replace with your bot token
+TOKEN = 'add token here' 
 
 intents = discord.Intents.default()
 intents.typing = True
